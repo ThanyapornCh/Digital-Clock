@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Orbitron', sans-serif;
-  transition: all 0.4s eases;
+  transition: all 0.4s ease;
 }
 section {
   min-height: 100vh;
@@ -47,7 +47,7 @@ section .container .icons i {
   font-size: 14px;
   cursor: pointer;
 }
-section .dark .container .icons i {
+section.dark .container .icons i {
   background: #fff;
   color: #323840;
 }
@@ -77,7 +77,7 @@ section .container .time {
   font-weight: 700;
   letter-spacing: 1px;
 }
-section .dark .time .time-colon .am_pm {
+section.dark .time .time-colon .am_pm {
   color: #fff;
 }
 .time .time-colon .time-text {
@@ -107,11 +107,11 @@ section.dark .time .colon {
   font-size: 40px;
   margin: 0 10px;
 }
-.time .time-colon .time .time-colon .time-text .text {
+.time .time-colon .time-text .text {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
 }
-section .dark .time .time-colon .text {
+section.dark .time .time-colon .text {
   color: #fff;
 }
